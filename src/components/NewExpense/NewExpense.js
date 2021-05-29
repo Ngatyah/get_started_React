@@ -1,4 +1,5 @@
 import React from "react";
+import { v4 as uuidv4 } from "uuid";
 import "./NewExpense.css";
 import ExpenseForm from "./ExpenseForm";
 
@@ -6,7 +7,7 @@ const NewExpense = (props) => {
   const saveExpenseDataHandler = (enteredExpenseData) => {
     const expenseData = {
       ...enteredExpenseData,
-      id: Math.random().toString(36),
+      id: uuidv4(),
     };
     console.log(expenseData);
 
