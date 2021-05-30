@@ -21,6 +21,18 @@ const DUMMY_DATA = [{
   amount: 450,
   date: new Date(2021, 5, 12),
 },
+{
+  id: "e5",
+  title: "Laptop (HP i7)",
+  amount: 897.56,
+  date: new Date(2022, 5, 12),
+},
+{
+  id: "e6",
+  title: "Bicylce(Bianchi model)",
+  amount: 350.56,
+  date: new Date(2019, 2, 12),
+},
 ];
 
 function App() {
