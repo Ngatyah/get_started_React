@@ -49,6 +49,7 @@ function App() {
     })
   };
 
+
   return (
     <div>
       <NewExpense onAddExpense={addNewExpenseHandler} />
